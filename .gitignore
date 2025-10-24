@@ -1,0 +1,31 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.ilk
+*.log
+*.pdb
+
+# Build results
+[Bb]in/
+[Oo]bj/
+TestResults/
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Publish output
+publish/
+
+# OS
+Thumbs.db
+Desktop.ini
