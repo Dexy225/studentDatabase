@@ -42,4 +42,47 @@ The project demonstrates practical skills in **C# programming, ADO.NET database 
 ---
 
 ## 🧱 Project Structure
+-Dykeman_FinalProject/
+-│
+-├── Academic Records/ # Optional CSV/Excel backups
+-│ └── Academic Records.xlsx
+-│
+-├── SchoolRecords.mdf # Local SQL database
+-├── SchoolRecords_log.ldf # LocalDB log file
+-│
+-├── Form1.cs / Form1.Designer.cs # Main Menu
+-├── Form2.cs / Form2.Designer.cs # Data Entry Form
+-├── Form3.cs / Form3.Designer.cs # Data Display Form
+-├── Form4.cs / Form4.Designer.cs # Statistics Form
+-│
+-├── Program.cs # Entry point
+-├── App.config # Connection strings & settings
+-├── SchoolRecordsDataSet.* # Dataset schema files
+-│
+-├── Dykeman_FinalProject.csproj # Project configuration
+-├── Dykeman_FinalProject.sln # Solution file
+-└── Properties/ # Application settings
 
+---
+
+Ensure that SchoolRecords.mdf exists in your project root.
+
+4️⃣ Run the Application
+
+Open Dykeman_FinalProject.sln in Visual Studio
+
+Press F5 or click Start Debugging
+
+---
+
+🧠 How It Works
+
+Data Entry (Form2): Adds or edits records directly in the LocalDB database.
+
+Display (Form3): Fetches live data into a DataGridView with sorting and search.
+
+Statistics (Form4): Uses LINQ/C# arithmetic to compute averages, standard deviation, and percentiles.
+
+Database: Managed via ADO.NET DataSets and TableAdapters.
+
+---
