@@ -65,13 +65,18 @@ The project demonstrates practical skills in **C# programming, ADO.NET database 
 
 ---
 
-Ensure that SchoolRecords.mdf exists in your project root.
+# Student Database
 
-4️⃣ Run the Application
+Prerequisites
+- Visual Studio 2022
+- .NET Framework 4.7.2 Developer Pack (targeting pack)
+- NuGet (Visual Studio restores automatically)
 
-Open Dykeman_FinalProject.sln in Visual Studio
-
-Press F5 or click Start Debugging
+How to run
+1. Clone: git clone https://github.com/Dexy225/studentDatabase.git
+2. Open `Ddykeman_FinalProject.sln` in Visual Studio 2022
+3. Restore NuGet packages (Visual Studio does this automatically)
+4. Set startup project, choose Debug/Release, then __Debug > Start Debugging__ or press F5
 
 ---
 
